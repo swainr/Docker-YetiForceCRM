@@ -1,8 +1,8 @@
 FROM php:7.2-apache
 
 # YetiForce CRM
-ENV DOWNLOAD_URL https://github.com/YetiForceCompany/YetiForceCRM/releases/download/5.2.0/YetiForceCRM-5.2.0-complete.zip
-ENV DOWNLOAD_FILE YetiForceCRM-5.2.0-complete.zip
+ENV DOWNLOAD_URL https://github.com/YetiForceCompany/YetiForceCRM/releases/download/5.3.0/YetiForceCRM-5.3.0-complete.zip
+ENV DOWNLOAD_FILE YetiForceCRM-5.3.0-complete.zip
 ENV EXTRACT_FOLDER YetiForceCRM
 ENV WWW_FOLDER /var/www/html
 ENV WWW_USER www-data
